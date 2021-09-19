@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#p1 {
+    font-size: 17px;
+}
+
+#suryaimg {
+    height: 150px;
+    width: 140px;
+    margin-left: 3%;
+}
+
+#fimg {
+    height: 150px;
+    width: 140px;
+}
+
+#address {
+    font-size: 15px;
+}
+
+#linkadd {
+    text-decoration: none;
+}
+
+#navbar {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+#navbar a {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+#maindiv {
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+#btn1 {
+    padding: 5px;
+}
+
+#btn1,
+#btn2 {
+    margin-top: 7px;
+}
+
+#btn1:hover,
+#btn2:hover {
+    background-color: rgb(7, 245, 253);
+}
+
+#btn2 {
+    padding: 5px;
+}
+
+#hi {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#div101 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    animation: blinkingText 0.5s infinite;
+    text-transform: capitalize;
+}
+
+@keyframes blinkingText {
+    0% {}
+    50% {
+        color: #000000;
+    }
+    100% {
+        color: #ff0011;
+    }
+}
+
+#finput1,
+#finput2,
+#finput3 {
+    padding-left: 3px;
+}
+
+#div102 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#div103 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#div104 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#subdiv {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#submitbtn:hover {
+    background-color: rgb(7, 245, 253);
+}
+
+#submitbtn {
+    padding: 5px;
+}
+
+#headr {
+    text-align: center;
+    font-size: 20px;
+}
+
+#hr1 {
+    margin-top: 15px;
+}
+
+#medicalr {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(63, 235, 41);
+    border: 1px solid black;
+}
+
+#namer {
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#drr {
+    text-decoration: underline;
+    margin-left: 10px;
+    padding-top: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#dater {
+    margin-left: 10px;
+    margin-top: 5px;
+    font: caption;
+    font-size: 20px;
+}
+
+#divlogoandhead {
+    display: flex;
+}
+
+#div111 {
+    height: 200px;
+}
+
+#ager,
+#mainr,
+#disr,
+#genr,
+#bor {
+    font-size: larger;
+}
+
+#ager {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+#mainr {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+#disr {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+#genr {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+#bor {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
