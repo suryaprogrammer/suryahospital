@@ -29,6 +29,8 @@
 #navbar {
     font-size: 17px;
     text-transform: capitalize;
+    position: sticky;
+    top: 0;
 }
 
 #navbar a {
