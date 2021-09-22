@@ -3,6 +3,54 @@
     padding: 0;
 }
 
+#in {
+    display: block;
+}
+
+#navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0.7rem;
+}
+
+#navbar {
+    font-size: 2rem;
+    color: rgb(10, 247, 255);
+}
+
+#navbar ul li {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+#navbar ul li ul {
+    width: 2px;
+}
+
+#navbar ul li ul li {
+    text-align: center;
+    padding: 0rem 0rem 0.4rem 0.4rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#navbar ul li ul {
+    display: none;
+}
+
+#navbar li:hover {
+    background-color: rgb(146, 0, 139);
+}
+
+#navbar ul li:hover>ul {
+    display: block;
+}
+
 #p1 {
     font-size: 17px;
 }
@@ -24,26 +72,6 @@
 
 #linkadd {
     text-decoration: none;
-}
-
-#navbar {
-    font-size: 17px;
-    text-transform: capitalize;
-    position: sticky;
-    top: 0;
-}
-
-#navbar a {
-    padding-left: 1%;
-    padding-right: 1%;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 100%;
-}
-
-#navbar a:hover {
-    border-bottom: 2px solid rgb(255, 0, 0);
 }
 
 #maindiv {
