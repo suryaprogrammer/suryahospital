@@ -17,7 +17,7 @@
 #navbar ul li {
     float: left;
     list-style-type: none;
-    padding: 0.7rem;
+    padding: 0.53rem;
 }
 
 #navbar {
@@ -35,7 +35,7 @@
 
 #navbar ul li ul li {
     text-align: center;
-    padding: 0rem 0rem 0.4rem 0.4rem;
+    padding: 0rem 0rem 0.3rem 0.3rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
